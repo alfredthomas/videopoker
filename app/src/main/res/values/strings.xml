@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Video Poker</string>
+    <string name="Ace">A</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+    <string name="Ten">10</string>
+    <string name="Jack">J</string>
+    <string name="Queen">Q</string>
+    <string name="King">K</string>
+    <string name="Joker">JOKER</string>
+
+    <string-array name="rank">
+        <item>A</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>J</item>
+        <item>Q</item>
+        <item>K</item>
+        <item>JOKER</item>
+    </string-array>
+    <string-array name="suit">
+        <item>♣</item>
+        <item>♦</item>
+        <item>♥</item>
+        <item>♠</item>
+        <item> </item>
+    </string-array>
+</resources>
