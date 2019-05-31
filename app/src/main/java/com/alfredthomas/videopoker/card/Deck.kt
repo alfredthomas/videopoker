@@ -6,9 +6,11 @@ class Deck(val jokers:Boolean){
     enum class Suit {Clubs,Diamonds,Hearts,Spades}
     enum class Rank {Ace,Two,Three,Four,Five,Six,Seven,Eight,Nine,Ten,Jack,Queen,King,Joker}
 
+    //fallback if no jokers are specified
     constructor():this(false)
 
     init {
+        //add all cards by suit and rank
         for(s in Suit.values())
         {
             for(r in Rank.values())
@@ -27,6 +29,7 @@ class Deck(val jokers:Boolean){
         deck.shuffle()
     }
 
+    //decks will contain 52 cards without jokers or 54 with
     fun getSize():Int
     {
         if(jokers)

@@ -1,5 +1,5 @@
 package com.alfredthomas.videopoker.card
-
+//A shoe will reference any collection of 1+ decks
 class Shoe (val decks:Int, val jokers: Boolean)
 {
     val shoe = arrayListOf<Card>()
